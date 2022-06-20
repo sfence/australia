@@ -1,10 +1,37 @@
-# Australia
-A mod for Minetest 0.4.14. Work in progress.
-Created by vlapsley.
+# Australia REDO
+Original mod created by vlapsley, updated for Minetest v5.5.1 by Josselin2.
 
-![Screenshot](https://raw.githubusercontent.com/vlapsley/australia/master/screenshot.png)
+![Screenshot](screenshot.png)
 
 [Discussion on Minetest Forums](https://forum.minetest.net/viewtopic.php?f=9&t=14412)
+
+As of 20 June 2022, the original version of this mod produces a number of annoying errors/warnings on Minetest v5.5.1. I have updated the code to fix them. 
+
+All changes are preceded by '@@@ Josselin2':
+
+*mod.conf*
+
+Merged in *depends.txt*, and then deleted *depends.txt*
+
+*biomeeasterncoasts.lua*
+
+The Warratah schematic generates an "incorrect number of nodes provided in raw schematic data" error. Fixed it
+
+*noairblocks.lua*
+
+Replaced 'water.alpha = 0' with 'water.use_texture_alpha = "opaque"'
+
+*nodes.lua*
+
+Fixed invalid fields for .inventory_image and .wield_image in several nodes
+Replaced 'alpha = 224' with 'use_texture_alpha = "blend"'
+Added 'use_texture_alpha = "clip"' to a number of nodes
+
+*README.md*
+
+Replaced the URL to the screenshot
+
+The rest of this file comprises the original README text.
 
 ## Inspiration
 The inspiration for this mod is my home country, Australia.

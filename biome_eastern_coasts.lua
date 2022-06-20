@@ -116,7 +116,9 @@ minetest.register_decoration({
 	y_min = 6,
 	y_max = 35,
 	schematic = {
-		size = { x = 2, y = 3, z = 2},
+-- @@@ Josselin2
+--		size = { x = 2, y = 3, z = 2},
+		size = { x = 2, y = 4, z = 2},
 		data = {
 			{ name = "ignore", param1 = 0, param2 = 0 },
 			{ name = "australia:waratah", param1 = 255, param2 = 0 },

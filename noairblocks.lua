@@ -29,7 +29,9 @@ for _, name in pairs(water_nodes) do
 	local new_name = string.gsub(name, 'default', 'australia')
 	local new_source = string.gsub(water.liquid_alternative_source, 'default', 'australia')
 	local new_flowing = string.gsub(water.liquid_alternative_flowing, 'default', 'australia')
-	water.alpha = 0
+-- @@@ Josselin2
+--	water.alpha = 0
+	water.use_texture_alpha = "opaque"
 	water.liquid_alternative_source = new_source
 	water.liquid_alternative_flowing = new_flowing
 	water.groups.not_in_creative_inventory = 1

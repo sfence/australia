@@ -559,6 +559,8 @@ minetest.register_node("australia:fern_trunk", {
             minetest.add_item(pos,"australia:fern_trunk")
         end
     end,
+    -- @@@ Josselin2
+    use_texture_alpha = "clip",
 })
 
 	-- Giant tree fern leaves
@@ -645,6 +647,8 @@ minetest.register_node("australia:tree_fern_leaf_big_end", {
 	},
 	drop = "",
 	sounds = default.node_sound_leaves_defaults(),
+    -- @@@ Josselin2
+    use_texture_alpha = "clip",
 })
 
 	-- Giant tree fern trunk top
@@ -679,6 +683,8 @@ minetest.register_node("australia:fern_trunk_big_top", {
 	},
 	drop = "australia:fern_trunk_big",
 	sounds = default.node_sound_wood_defaults(),
+    -- @@@ Josselin2
+    use_texture_alpha = "clip",    
 })
 
 	-- Giant tree fern trunk
@@ -708,6 +714,8 @@ minetest.register_node("australia:fern_trunk_big", {
             minetest.add_item(pos,"australia:fern_trunk_big")
         end
     end,
+    -- @@@ Josselin2
+    use_texture_alpha = "clip",
 })
 
 	-- Tree fern sapling
@@ -838,6 +846,8 @@ minetest.register_node("australia:mangrove_palm_leaf_bot", {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, 0.5, 0.5},
 	},
+    -- @@@ Josselin2
+    use_texture_alpha = "clip",
 })
 
 minetest.register_node("australia:mangrove_palm_leaf_top", {
@@ -859,6 +869,8 @@ minetest.register_node("australia:mangrove_palm_leaf_top", {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, 0.5, 0.5},
 	},
+    -- @@@ Josselin2
+    use_texture_alpha = "clip",
 })
 
 	-- Banksia dallanneyi: Couch Honeypot
@@ -992,9 +1004,12 @@ minetest.register_node("australia:waratah", {
 	description = "Telopea speciosissima: Waratah",
 	drawtype = "allfaces_optional",
 	visual_scale = 1.0,
-	tiles = { "aus_waratah.png"},
-	inventory_image = { "aus_waratah.png"},
-	wield_image = { "aus_waratah.png"},
+	tiles = { "aus_waratah.png"},   
+    -- @@@ Josselin2
+--	inventory_image = { "aus_waratah.png"},
+--	wield_image = { "aus_waratah.png"},
+	inventory_image = "aus_waratah.png",
+	wield_image = "aus_waratah.png",
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = true,
@@ -1080,8 +1095,11 @@ minetest.register_node("australia:brain_coral", {
 		"aus_brain_coral.png",
 		"aus_brain_coral.png"
 	},
-	inventory_image = { "aus_brain_coral.png"},
-	wield_image = { "aus_brain_coral.png"},
+    -- @@@ Josselin2    
+--	inventory_image = { "aus_brain_coral.png"},
+--	wield_image = { "aus_brain_coral.png"},
+	inventory_image = "aus_brain_coral.png",
+	wield_image = "aus_brain_coral.png",
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
 	sounds = default.node_sound_leaves_defaults(),
@@ -1105,8 +1123,11 @@ minetest.register_node("australia:cauliflower_coral_brown", {
 	drawtype = "plantlike",
 	visual_scale = 0.75,
 	tiles = { "aus_cauliflower_coral_brown.png"},
-	inventory_image = { "aus_cauliflower_coral_brown.png"},
-	wield_image = { "aus_cauliflower_coral_brown.png"},
+    -- @@@ Josselin2    
+--	inventory_image = { "aus_cauliflower_coral_brown.png"},
+--	wield_image = { "aus_cauliflower_coral_brown.png"},
+	inventory_image = "aus_cauliflower_coral_brown.png",
+	wield_image = "aus_cauliflower_coral_brown.png",
 	paramtype = "light",
 	walkable = false,
 	climable = true,
@@ -1126,8 +1147,11 @@ minetest.register_node("australia:cauliflower_coral_green", {
 	drawtype = "plantlike",
 	visual_scale = 0.75,
 	tiles = { "aus_cauliflower_coral_green.png"},
-	inventory_image = { "aus_cauliflower_coral_green.png"},
-	wield_image = { "aus_cauliflower_coral_green.png"},
+    -- @@@ Josselin2    
+--	inventory_image = { "aus_cauliflower_coral_green.png"},
+--	wield_image = { "aus_cauliflower_coral_green.png"},
+	inventory_image = "aus_cauliflower_coral_green.png",
+	wield_image = "aus_cauliflower_coral_green.png",
 	paramtype = "light",
 	walkable = false,
 	climable = true,
@@ -1147,8 +1171,11 @@ minetest.register_node("australia:cauliflower_coral_pink", {
 	drawtype = "plantlike",
 	visual_scale = 0.75,
 	tiles = { "aus_cauliflower_coral_pink.png"},
-	inventory_image = { "aus_cauliflower_coral_pink.png"},
-	wield_image = { "aus_cauliflower_coral_pink.png"},
+    -- @@@ Josselin2    
+--	inventory_image = { "aus_cauliflower_coral_pink.png"},
+--	wield_image = { "aus_cauliflower_coral_pink.png"},
+	inventory_image = "aus_cauliflower_coral_pink.png",
+	wield_image = "aus_cauliflower_coral_pink.png",
 	paramtype = "light",
 	walkable = false,
 	climable = true,
@@ -1442,7 +1469,9 @@ minetest.register_node("australia:muddy_river_water_source", {
 			backface_culling = false,
 		},
 	},
-	alpha = 224,
+-- @@@ Josselin2
+--	alpha = 224,
+	use_texture_alpha = "blend",
 	paramtype = "light",
 	walkable = false,
 	pointable = false,
@@ -1487,7 +1516,9 @@ minetest.register_node("australia:muddy_river_water_flowing", {
 			},
 		},
 	},
-	alpha = 224,
+-- @@@ Josselin2
+--	alpha = 224,
+	use_texture_alpha = "blend",
 	paramtype = "light",
 	paramtype2 = "flowingliquid",
 	walkable = false,
@@ -1658,6 +1689,8 @@ minetest.register_node("australia:moss", {
 	},
 	groups = {snappy = 3,flammable = 3},
 	sounds = default.node_sound_leaves_defaults(),
+    -- @@@ Josselin2
+    use_texture_alpha = "clip",
 })
 
 minetest.register_node("australia:moss_with_fungus", {
@@ -1681,4 +1714,6 @@ minetest.register_node("australia:moss_with_fungus", {
 	},
 	groups = {snappy = 3,flammable = 3},
 	sounds = default.node_sound_leaves_defaults(),
+    -- @@@ Josselin2
+    use_texture_alpha = "clip",
 })
