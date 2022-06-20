@@ -24,7 +24,9 @@ Replaced 'water.alpha = 0' with 'water.use_texture_alpha = "opaque"'
 *nodes.lua*
 
 Fixed invalid fields for .inventory_image and .wield_image in several nodes
+
 Replaced 'alpha = 224' with 'use_texture_alpha = "blend"'
+
 Added 'use_texture_alpha = "clip"' to a number of nodes
 
 *README.md*
