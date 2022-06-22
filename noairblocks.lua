@@ -21,14 +21,14 @@
 -- 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 
-local water_nodes = {"default:water_source", "default:water_flowing", "default:river_water_source", "default:river_water_flowing"}
-local aus_nodes = {"australia:water_source", "australia:water_flowing", "australia:river_water_source", "australia:river_water_flowing"}
+local water_nodes = {"hades_core:water_source", "hades_core:water_flowing"}
+local aus_nodes = {"hades_australia:water_source", "hades_australia:water_flowing", "hades_australia:river_water_source", "hades_australia:river_water_flowing"}
 
 for _, name in pairs(water_nodes) do
 	local water = table.copy(minetest.registered_nodes[name])
-	local new_name = string.gsub(name, 'default', 'australia')
-	local new_source = string.gsub(water.liquid_alternative_source, 'default', 'australia')
-	local new_flowing = string.gsub(water.liquid_alternative_flowing, 'default', 'australia')
+	local new_name = string.gsub(name, 'hades_core', 'hades_australia')
+	local new_source = string.gsub(water.liquid_alternative_source, 'hades_core', 'hades_australia')
+	local new_flowing = string.gsub(water.liquid_alternative_flowing, 'hades_core', 'hades_australia')
 -- @@@ Josselin2
 --	water.alpha = 0
 	water.use_texture_alpha = "opaque"

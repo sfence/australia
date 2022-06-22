@@ -5,196 +5,196 @@
 -- Stone
 --
 
-minetest.register_node("australia:red_stone", {
+minetest.register_node("hades_australia:red_stone", {
 	description = "Red Stone",
 	tiles = {"aus_red_stone.png"},
 	groups = {cracky=3, stone=1},
-	drop = 'australia:red_cobble',
-	sounds = default.node_sound_stone_defaults(),
+	drop = 'hades_australia:red_cobble',
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:red_cobble", {
+minetest.register_node("hades_australia:red_cobble", {
 	description = "Red cobblestone",
 	tiles = {"aus_red_cobble.png"},
 	is_ground_content = false,
 	groups = {cracky=3, stone=2},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:red_stonebrick", {
+minetest.register_node("hades_australia:red_stonebrick", {
 	description = "Red Stone Brick",
 	tiles = {"aus_red_stonebrick.png"},
 	is_ground_content = false,
 	groups = {cracky=2, stone=1},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:bluestone", {
+minetest.register_node("hades_australia:bluestone", {
 	description = "Bluestone (Basalt)",
 	tiles = {"aus_bluestone.png"},
 	groups = {cracky=2, stone=1},
-	drop = 'australia:bluestone_cobble',
-	sounds = default.node_sound_stone_defaults(),
+	drop = 'hades_australia:bluestone_cobble',
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:bluestone_cobble", {
+minetest.register_node("hades_australia:bluestone_cobble", {
 	description = "Bluestone cobble",
 	tiles = {"aus_bluestone_cobble.png"},
 	is_ground_content = false,
 	groups = {cracky=2, stone=2},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:bluestone_brick", {
+minetest.register_node("hades_australia:bluestone_brick", {
 	description = "Bluestone Brick",
 	tiles = {"aus_bluestone_brick.png"},
 	is_ground_content = false,
 	groups = {cracky=1, stone=1},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_brain", {
+minetest.register_node("hades_australia:coral_stone_brain", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_cluster_green", {
+minetest.register_node("hades_australia:coral_stone_cluster_green", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_cluster_orange", {
+minetest.register_node("hades_australia:coral_stone_cluster_orange", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_cluster_purple", {
+minetest.register_node("hades_australia:coral_stone_cluster_purple", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_hammer", {
+minetest.register_node("hades_australia:coral_stone_hammer", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_seafan", {
+minetest.register_node("hades_australia:coral_stone_seafan", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_tube_sponge", {
+minetest.register_node("hades_australia:coral_stone_tube_sponge", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_cauliflower_brown", {
+minetest.register_node("hades_australia:coral_stone_cauliflower_brown", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_cauliflower_green", {
+minetest.register_node("hades_australia:coral_stone_cauliflower_green", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_cauliflower_pink", {
+minetest.register_node("hades_australia:coral_stone_cauliflower_pink", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_staghorn_blue", {
+minetest.register_node("hades_australia:coral_stone_staghorn_blue", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_staghorn_pink", {
+minetest.register_node("hades_australia:coral_stone_staghorn_pink", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_staghorn_purple", {
+minetest.register_node("hades_australia:coral_stone_staghorn_purple", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:coral_stone_staghorn_yellow", {
+minetest.register_node("hades_australia:coral_stone_staghorn_yellow", {
 	description = "Sea coral stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:stone_kelp_brown", {
+minetest.register_node("hades_australia:stone_kelp_brown", {
 	description = "Sea stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
-minetest.register_node("australia:stone_kelp_giant_brown", {
+minetest.register_node("hades_australia:stone_kelp_giant_brown", {
 	description = "Sea stone",
 	tiles = {"aus_coral_stone.png"},
 	is_ground_content = true,
 	groups = {cracky=3, stone=1, not_in_creative_inventory=1},
 	drop = 'default:stone',
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 })
 
 
@@ -203,54 +203,54 @@ minetest.register_node("australia:stone_kelp_giant_brown", {
 -- Soft / Non-Stone
 --
 
-minetest.register_node("australia:red_dirt", {
+minetest.register_node("hades_australia:red_dirt", {
 	description = "Red Dirt",
 	tiles = {"aus_red_dirt.png"},
 	groups = {crumbly=3,soil=1},
-	sounds = default.node_sound_dirt_defaults(),
+	sounds = hades_sounds.node_sound_dirt_defaults(),
 })
 
-minetest.register_node("australia:red_sand", {
+minetest.register_node("hades_australia:red_sand", {
 	description = "Red Sand",
 	tiles = {"aus_red_sand.png"},
 	groups = {crumbly=3, falling_node=1, sand=1},
-	sounds = default.node_sound_sand_defaults(),
+	sounds = hades_sounds.node_sound_sand_defaults(),
 })
 
-minetest.register_node("australia:red_gravel", {
+minetest.register_node("hades_australia:red_gravel", {
 	description = "Red Gravel",
 	tiles = {"aus_red_gravel.png"},
 	groups = {crumbly=2, falling_node=1},
-	sounds = default.node_sound_dirt_defaults({
+	sounds = hades_sounds.node_sound_dirt_defaults({
 		footstep = {name="default_gravel_footstep", gain=0.5},
 		dug = {name="default_gravel_footstep", gain=1.0},
 	}),
 })
 
-minetest.register_node("australia:mangrove_mud", {
+minetest.register_node("hades_australia:mangrove_mud", {
 	description = "Mangrove Mud",
 	tiles = {"aus_mangrove_mud.png"},
 	groups = {crumbly=2, soil=1},
-	sounds = default.node_sound_dirt_defaults({
+	sounds = hades_sounds.node_sound_dirt_defaults({
 		footstep = {name="aus_mangrove_mud", gain=0.4},
 		dug = {name="aus_mangrove_mud", gain=0.4},
 	}),
 })
 
-minetest.register_node("australia:woodship", {
+minetest.register_node("hades_australia:woodship", {
 	description = "Sand for the wooden ship",
 	tiles = {"default_sand.png"},
 	is_ground_content = true,
 	groups = {crumbly=3, falling_node=1, sand=1, soil=1, not_in_creative_inventory=1},
-	sounds = default.node_sound_sand_defaults(),
+	sounds = hades_sounds.node_sound_sand_defaults(),
 })
 
-minetest.register_node("australia:submarine", {
+minetest.register_node("hades_australia:submarine", {
 	description = "Dirt for the submarine",
 	tiles = {"default_dirt.png"},
 	is_ground_content = true,
 	groups = {crumbly=3,soil=1, not_in_creative_inventory=1},
-	sounds = default.node_sound_dirt_defaults(),
+	sounds = hades_sounds.node_sound_dirt_defaults(),
 })
 
 --
@@ -330,7 +330,7 @@ for i in ipairs(aus.treelist) do
 		paramtype2 = "facedir",
 		is_ground_content = true,
 		groups = {tree=1,choppy=2,oddly_breakable_by_hand=1,flammable=2},
-		sounds = default.node_sound_wood_defaults(),
+		sounds = hades_sounds.node_sound_wood_defaults(),
 		on_place = minetest.rotate_node,
 	}
 	-- Some trunks aren't a meter wide.
@@ -345,18 +345,18 @@ for i in ipairs(aus.treelist) do
 			fixed = { {-radius, -0.5, -radius, radius, 0.5, radius}, }
 		}
 	end
-	minetest.register_node("australia:"..treename.."_tree", node_d)
+	minetest.register_node("hades_australia:"..treename.."_tree", node_d)
 
 	-- wood
-	minetest.register_node("australia:"..treename.."_wood", {
+	minetest.register_node("hades_australia:"..treename.."_wood", {
 		description = treedesc.." Wood Planks",
 		tiles = {"aus_"..treename.."_wood.png"},
 		groups = {choppy=2,oddly_breakable_by_hand=2,flammable=3,wood=1},
-		sounds = default.node_sound_wood_defaults(),
+		sounds = hades_sounds.node_sound_wood_defaults(),
 	})
 
 	-- leaves
-	minetest.register_node("australia:"..treename.."_leaves", {
+	minetest.register_node("hades_australia:"..treename.."_leaves", {
 		description = treedesc.." Leaves",
 		drawtype = "allfaces_optional",
 		visual_scale = 1.3,
@@ -367,15 +367,15 @@ for i in ipairs(aus.treelist) do
 		drop = {
 			max_items = 1,
 			items = {
-				{items = {"australia:"..treename.."_sapling"}, rarity = 50 },
-				{items = {"australia:"..treename.."_leaves"} }
+				{items = {"hades_australia:"..treename.."_sapling"}, rarity = 50 },
+				{items = {"hades_australia:"..treename.."_leaves"} }
 			}
 		},
-		sounds = default.node_sound_leaves_defaults(),
+		sounds = hades_sounds.node_sound_leaves_defaults(),
 	})
 
 	-- sapling
-	minetest.register_node("australia:"..treename.."_sapling", {
+	minetest.register_node("hades_australia:"..treename.."_sapling", {
 		description = treedesc.." Sapling",
 		drawtype = "plantlike",
 		visual_scale = 1.0,
@@ -391,12 +391,12 @@ for i in ipairs(aus.treelist) do
 			fixed = {-0.3, -0.5, -0.3, 0.3, 0.35, 0.3}
 		},
 		groups = {snappy=2,dig_immediate=3,flammable=2,attached_node=1},
-		sounds = default.node_sound_leaves_defaults(),
+		sounds = hades_sounds.node_sound_leaves_defaults(),
 	})
 
 	-- fruit, if applicable
 	if treefruit then
-		minetest.register_node("australia:"..treefruit.."", {
+		minetest.register_node("hades_australia:"..treefruit.."", {
 			description = treefruit_desc,
 			drawtype = "plantlike",
 			visual_scale = treefruit_scale,
@@ -414,22 +414,22 @@ for i in ipairs(aus.treelist) do
 			groups = {fleshy=3,dig_immediate=3,flammable=2,leafdecay=3,leafdecay_drop=1},
 			-- Fruit makes you healthy.
 			on_use = minetest.item_eat(treefruit_health),
-			sounds = default.node_sound_leaves_defaults(),
+			sounds = hades_sounds.node_sound_leaves_defaults(),
 			after_place_node = function(pos, placer, itemstack)
 				if placer:is_player() then
-					minetest.set_node(pos, {name="australia:"..treefruit.."", param2=1})
+					minetest.set_node(pos, {name="hades_australia:"..treefruit.."", param2=1})
 				end
 			end,
 		})
 	end
 
 	-- fence
-	default.register_fence("australia:fence_"..treename.."_wood", {
+	hades_fences.register_fence("hades_australia:fence_"..treename.."_wood", {
 		description = treedesc.." Fence",
 		texture = "aus_"..treename.."_wood.png",
-		material = "australia:"..treename.."_wood",
+		material = "hades_australia:"..treename.."_wood",
 		groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},
-		sounds = default.node_sound_wood_defaults(),
+		sounds = hades_sounds.node_sound_wood_defaults(),
 	})
 end
 
@@ -440,7 +440,7 @@ end
 --
 
 	-- Fern
-minetest.register_node("australia:fern", {
+minetest.register_node("hades_australia:fern", {
 	description = "Hypolepis rugosula: Ruddy Ground Fern",
 	inventory_image = "aus_fern.png",
 	drawtype = "plantlike",
@@ -450,16 +450,16 @@ minetest.register_node("australia:fern", {
 	walkable = false,
 	buildable_to = true,
 	groups = {snappy=3,flammable=2,attached_node=1,not_in_creative_inventory=1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-7/16, -1/2, -7/16, 7/16, 0, 7/16},
 	},
-	drop = "australia:fern",
+	drop = "hades_australia:fern",
 })
 
 	-- Small Fern
-minetest.register_node("australia:small_fern", {
+minetest.register_node("hades_australia:small_fern", {
 	description = "Pellaea falcata: Sickle Fern",
 	inventory_image = "aus_fern.png",
 	drawtype = "plantlike",
@@ -469,16 +469,16 @@ minetest.register_node("australia:small_fern", {
 	walkable = false,
 	buildable_to = true,
 	groups = {snappy=3,flammable=2,attached_node=1,not_in_creative_inventory=1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-7/16, -1/2, -7/16, 7/16, 0, 7/16},
 	},
-	drop = "australia:small_fern",
+	drop = "hades_australia:small_fern",
 })
 
 	-- Tree fern leaves
-minetest.register_node("australia:tree_fern_leaves", {
+minetest.register_node("hades_australia:tree_fern_leaves", {
 	description = "Dicksonia Antarctica: Tree Fern Crown",
 	drawtype = "plantlike",
 	visual_scale = 2,
@@ -496,17 +496,17 @@ minetest.register_node("australia:tree_fern_leaves", {
 				rarity = 20,
 			},
 			{
-				items = {"australia:tree_fern_leaves"},
+				items = {"hades_australia:tree_fern_leaves"},
 			}
 		}
 	},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-7/16, -1/2, -7/16, 7/16, 0, 7/16},
 	},
 })
-minetest.register_node("australia:tree_fern_leaves_02", {
+minetest.register_node("hades_australia:tree_fern_leaves_02", {
 	drawtype = "plantlike",
 	visual_scale = 2,
 	paramtype = "light",
@@ -517,15 +517,15 @@ minetest.register_node("australia:tree_fern_leaves_02", {
 		max_items = 1,
 		items = {
 			{
-				items = {"australia:sapling_tree_fern"},
+				items = {"hades_australia:sapling_tree_fern"},
 				rarity = 20,
 			},
 			{
-				items = {"australia:tree_fern_leaves"},
+				items = {"hades_australia:tree_fern_leaves"},
 			}
 		}
 	},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-7/16, -1/2, -7/16, 7/16, 0, 7/16},
@@ -533,7 +533,7 @@ minetest.register_node("australia:tree_fern_leaves_02", {
 })
 
 	-- Fern trunk
-minetest.register_node("australia:fern_trunk", {
+minetest.register_node("hades_australia:fern_trunk", {
 	description = "Dicksonia Antarctica: Tree Fern Trunk",
 	drawtype = "nodebox",
 	paramtype = "light",
@@ -551,12 +551,12 @@ minetest.register_node("australia:fern_trunk", {
 		fixed = {-1/7, -1/2, -1/7, 1/7, 1/2, 1/7},
 	},
 	groups = {tree=1,choppy=2,oddly_breakable_by_hand=2,flammable=3,wood=1},
-	sounds = default.node_sound_wood_defaults(),
+	sounds = hades_sounds.node_sound_wood_defaults(),
 	after_destruct = function(pos,oldnode)
         local node = minetest.get_node({x=pos.x,y=pos.y+1,z=pos.z})
-        if node.name == "australia:fern_trunk" then 
+        if node.name == "hades_australia:fern_trunk" then 
             minetest.dig_node({x=pos.x,y=pos.y+1,z=pos.z}) 
-            minetest.add_item(pos,"australia:fern_trunk")
+            minetest.add_item(pos,"hades_australia:fern_trunk")
         end
     end,
     -- @@@ Josselin2
@@ -564,7 +564,7 @@ minetest.register_node("australia:fern_trunk", {
 })
 
 	-- Giant tree fern leaves
-minetest.register_node("australia:tree_fern_leaves_giant", {
+minetest.register_node("hades_australia:tree_fern_leaves_giant", {
 	description = "Dicksonia Antarctica: Tree Fern Crown",
 	drawtype = "plantlike",
 	visual_scale = math.sqrt(8),
@@ -586,18 +586,18 @@ minetest.register_node("australia:tree_fern_leaves_giant", {
 				-- occasionally, drop a second sapling instead of leaves
 				-- (extra saplings can also be obtained by replanting and
 				--  reharvesting leaves)
-				items = {"australia:sapling_giant_tree_fern"},
+				items = {"hades_australia:sapling_giant_tree_fern"},
 				rarity = 10,
 			},
 			{
-				items = {"australia:sapling_giant_tree_fern"},
+				items = {"hades_australia:sapling_giant_tree_fern"},
 			},
 			{
-				items = {"australia:tree_fern_leaves_giant"},
+				items = {"hades_australia:tree_fern_leaves_giant"},
 			}
 		}
 	},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-7/16, -1/2, -7/16, 7/16, 0, 7/16},
@@ -605,7 +605,7 @@ minetest.register_node("australia:tree_fern_leaves_giant", {
 })
 
 	-- Giant tree fern leaf part
-minetest.register_node("australia:tree_fern_leaf_big", {
+minetest.register_node("hades_australia:tree_fern_leaf_big", {
 	description = "Dicksonia Antarctica: Giant Tree Fern Leaves",
 	drawtype = "raillike",
 	paramtype = "light",
@@ -620,11 +620,11 @@ minetest.register_node("australia:tree_fern_leaf_big", {
 		not_in_creative_inventory=1
 	},
 	drop = "",
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 })
 
 	-- Giant tree fern leaf end
-minetest.register_node("australia:tree_fern_leaf_big_end", {
+minetest.register_node("hades_australia:tree_fern_leaf_big_end", {
 	description = "Dicksonia Antarctica: Giant Tree Fern Leaf End",
 	drawtype = "nodebox",
 	paramtype = "light",
@@ -646,13 +646,13 @@ minetest.register_node("australia:tree_fern_leaf_big_end", {
 		not_in_creative_inventory=1
 	},
 	drop = "",
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
     -- @@@ Josselin2
     use_texture_alpha = "clip",
 })
 
 	-- Giant tree fern trunk top
-minetest.register_node("australia:fern_trunk_big_top", {
+minetest.register_node("hades_australia:fern_trunk_big_top", {
 	description = "Dicksonia Antarctica: Giant Tree Fern Trunk",
 	drawtype = "nodebox",
 	paramtype = "light",
@@ -681,14 +681,14 @@ minetest.register_node("australia:fern_trunk_big_top", {
 		not_in_creative_inventory=1,
 		leafdecay=3 -- to support vines
 	},
-	drop = "australia:fern_trunk_big",
-	sounds = default.node_sound_wood_defaults(),
+	drop = "hades_australia:fern_trunk_big",
+	sounds = hades_sounds.node_sound_wood_defaults(),
     -- @@@ Josselin2
     use_texture_alpha = "clip",    
 })
 
 	-- Giant tree fern trunk
-minetest.register_node("australia:fern_trunk_big", {
+minetest.register_node("hades_australia:fern_trunk_big", {
 	description = "Dicksonia Antarctica: Giant Tree Fern Trunk",
 	drawtype = "nodebox",
 	paramtype = "light",
@@ -706,12 +706,12 @@ minetest.register_node("australia:fern_trunk_big", {
 		fixed = {-1/4, -1/2, -1/4, 1/4, 1/2, 1/4},
 	},
 	groups = {tree=1,choppy=2,oddly_breakable_by_hand=2,flammable=3,wood=1},
-	sounds = default.node_sound_wood_defaults(),
+	sounds = hades_sounds.node_sound_wood_defaults(),
 	after_destruct = function(pos,oldnode)
         local node = minetest.get_node({x=pos.x,y=pos.y+1,z=pos.z})
-        if node.name == "australia:fern_trunk_big" or node.name == "australia:fern_trunk_big_top" then 
+        if node.name == "hades_australia:fern_trunk_big" or node.name == "hades_australia:fern_trunk_big_top" then 
             minetest.dig_node({x=pos.x,y=pos.y+1,z=pos.z}) 
-            minetest.add_item(pos,"australia:fern_trunk_big")
+            minetest.add_item(pos,"hades_australia:fern_trunk_big")
         end
     end,
     -- @@@ Josselin2
@@ -719,7 +719,7 @@ minetest.register_node("australia:fern_trunk_big", {
 })
 
 	-- Tree fern sapling
-minetest.register_node("australia:sapling_tree_fern", {
+minetest.register_node("hades_australia:sapling_tree_fern", {
 	description = "Dicksonia Antarctica: Tree Fern Sapling",
 	drawtype = "plantlike",
 	paramtype = "light",
@@ -728,7 +728,7 @@ minetest.register_node("australia:sapling_tree_fern", {
 	inventory_image = "aus_sapling_tree_fern.png",
 	walkable = false,
 	groups = {snappy=3,flammable=2,flora=1,attached_node=1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-7/16, -1/2, -7/16, 7/16, 0, 7/16},
@@ -736,7 +736,7 @@ minetest.register_node("australia:sapling_tree_fern", {
 })
 
 	-- Giant tree fern sapling
-minetest.register_node("australia:sapling_giant_tree_fern", {
+minetest.register_node("hades_australia:sapling_giant_tree_fern", {
 	description = "Dicksonia Antarctica: Giant Tree Fern Sapling",
 	drawtype = "plantlike",
 	paramtype = "light",
@@ -744,7 +744,7 @@ minetest.register_node("australia:sapling_giant_tree_fern", {
 	inventory_image = "aus_sapling_tree_fern_giant.png",
 	walkable = false,
 	groups = {snappy=3,flammable=2,flora=1,attached_node=1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-7/16, -1/2, -7/16, 7/16, 0, 7/16},
@@ -763,7 +763,7 @@ minetest.register_node("australia:sapling_giant_tree_fern", {
 --
 
 	-- Acrostichum speciosum: Mangrove Fern
-minetest.register_node("australia:mangrove_fern", {
+minetest.register_node("hades_australia:mangrove_fern", {
 	description = "Acrostichum speciosum: Mangrove Fern",
 	drawtype = "plantlike",
 	waving = 1,
@@ -776,7 +776,7 @@ minetest.register_node("australia:mangrove_fern", {
 	walkable = false,
 	buildable_to = false,
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -784,7 +784,7 @@ minetest.register_node("australia:mangrove_fern", {
 })
 
 	-- Crinum pedunculatum: Mangrove Lily
-minetest.register_node("australia:mangrove_lily", {
+minetest.register_node("hades_australia:mangrove_lily", {
 	description = "Crinum pedunculatum: Mangrove Lily",
 	drawtype = "plantlike",
 	waving = 1,
@@ -797,7 +797,7 @@ minetest.register_node("australia:mangrove_lily", {
 	walkable = false,
 	buildable_to = false,
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -805,7 +805,7 @@ minetest.register_node("australia:mangrove_lily", {
 })
 
 	-- Nypa fruticans: Mangrove Palm
-minetest.register_node("australia:mangrove_palm_trunk", {
+minetest.register_node("hades_australia:mangrove_palm_trunk", {
 	description = "Nypa fruticans: Mangrove Fern",
 	tiles = {"aus_mangrove_palm_trunk.png", "aus_mangrove_mud.png",
 		"aus_mangrove_palm_trunk.png"},
@@ -814,7 +814,7 @@ minetest.register_node("australia:mangrove_palm_trunk", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	groups = {choppy = 2, flammable = 2, flora = 1, attached_node = 1, oddly_breakable_by_hand = 1},
-	sounds = default.node_sound_wood_defaults(),
+	sounds = hades_sounds.node_sound_wood_defaults(),
 	on_place = minetest.rotate_node,
 --	drawtype = "nodebox",
 --	node_box = {
@@ -827,7 +827,7 @@ minetest.register_node("australia:mangrove_palm_trunk", {
 	},
 })
 
-minetest.register_node("australia:mangrove_palm_leaf_bot", {
+minetest.register_node("hades_australia:mangrove_palm_leaf_bot", {
 	description = "Nypa fruticans: Mangrove Fern",
 	tiles = {"aus_mangrove_palm_leaf_bot.png", "aus_mangrove_palm_leaf_bot.png",
 		"aus_mangrove_palm_leaf_bot.png"},
@@ -836,7 +836,7 @@ minetest.register_node("australia:mangrove_palm_leaf_bot", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	drawtype = "nodebox",
 	nodebox = {
 		type = "fixed",
@@ -850,7 +850,7 @@ minetest.register_node("australia:mangrove_palm_leaf_bot", {
     use_texture_alpha = "clip",
 })
 
-minetest.register_node("australia:mangrove_palm_leaf_top", {
+minetest.register_node("hades_australia:mangrove_palm_leaf_top", {
 	description = "Nypa fruticans: Mangrove Fern",
 	tiles = {"aus_mangrove_palm_leaf_top.png", "aus_mangrove_palm_leaf_top.png",
 		"aus_mangrove_palm_leaf_top.png"},
@@ -859,7 +859,7 @@ minetest.register_node("australia:mangrove_palm_leaf_top", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	drawtype = "nodebox",
 	nodebox = {
 		type = "fixed",
@@ -874,7 +874,7 @@ minetest.register_node("australia:mangrove_palm_leaf_top", {
 })
 
 	-- Banksia dallanneyi: Couch Honeypot
-minetest.register_node("australia:couch_honeypot", {
+minetest.register_node("hades_australia:couch_honeypot", {
 	description = "Banksia dallanneyi: Couch Honeypot",
 	drawtype = "plantlike",
 	waving = 0,
@@ -887,7 +887,7 @@ minetest.register_node("australia:couch_honeypot", {
 	walkable = false,
 	buildable_to = false,
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -895,7 +895,7 @@ minetest.register_node("australia:couch_honeypot", {
 })
 
 	-- Crinum flaccidum: Darling Lily
-minetest.register_node("australia:darling_lily", {
+minetest.register_node("hades_australia:darling_lily", {
 	description = "Crinum flaccidum: Darling Lily",
 	drawtype = "plantlike",
 	waving = 1,
@@ -908,7 +908,7 @@ minetest.register_node("australia:darling_lily", {
 	walkable = false,
 	buildable_to = false,
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -916,7 +916,7 @@ minetest.register_node("australia:darling_lily", {
 })
 
 	-- Astrebla pectinata: Mitchell Grass
-minetest.register_node("australia:mitchell_grass", {
+minetest.register_node("hades_australia:mitchell_grass", {
 	description = "Astrebla pectinata: Mitchell Grass",
 	drawtype = "plantlike",
 	waving = 0,
@@ -929,7 +929,7 @@ minetest.register_node("australia:mitchell_grass", {
 	walkable = false,
 	buildable_to = false,
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -937,7 +937,7 @@ minetest.register_node("australia:mitchell_grass", {
 })
 
 	-- Atriplex nummularia: Saltbush
-minetest.register_node("australia:saltbush", {
+minetest.register_node("hades_australia:saltbush", {
 	description = "Atriplex nummularia: Saltbush",
 	drawtype = "plantlike",
 	waving = 0,
@@ -950,7 +950,7 @@ minetest.register_node("australia:saltbush", {
 	walkable = false,
 	buildable_to = false,
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -958,7 +958,7 @@ minetest.register_node("australia:saltbush", {
 })
 
 	-- Olearia pannosa: Silver Daisy
-minetest.register_node("australia:silver_daisy", {
+minetest.register_node("hades_australia:silver_daisy", {
 	description = "Olearia pannosa: Silver Daisy",
 	drawtype = "plantlike",
 	waving = 1,
@@ -971,7 +971,7 @@ minetest.register_node("australia:silver_daisy", {
 	walkable = false,
 	buildable_to = false,
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -979,7 +979,7 @@ minetest.register_node("australia:silver_daisy", {
 })
 
 	-- Triodia longiceps: Spinifex
-minetest.register_node("australia:spinifex", {
+minetest.register_node("hades_australia:spinifex", {
 	description = "Triodia longiceps: Spinifex",
 	drawtype = "plantlike",
 	waving = 0,
@@ -992,7 +992,7 @@ minetest.register_node("australia:spinifex", {
 	walkable = false,
 	buildable_to = false,
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1000,7 +1000,7 @@ minetest.register_node("australia:spinifex", {
 })
 
 	-- Telopea speciosissima: Waratah
-minetest.register_node("australia:waratah", {
+minetest.register_node("hades_australia:waratah", {
 	description = "Telopea speciosissima: Waratah",
 	drawtype = "allfaces_optional",
 	visual_scale = 1.0,
@@ -1014,11 +1014,11 @@ minetest.register_node("australia:waratah", {
 	sunlight_propagates = true,
 	is_ground_content = true,
 	groups = {snappy = 3, flammable = 2, flora = 1, attached_node = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 })
 
 	-- Ecklonia radiata: Common Kelp
-minetest.register_node("australia:kelp_brown", {
+minetest.register_node("hades_australia:kelp_brown", {
 	description = "Ecklonia radiata: Common Kelp",
 	drawtype = "plantlike",
 	waving = 1,
@@ -1032,7 +1032,7 @@ minetest.register_node("australia:kelp_brown", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {snappy=3, seaplants=1, sea=1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1040,7 +1040,7 @@ minetest.register_node("australia:kelp_brown", {
 })
 
 	-- Macrocystis pyrifera: Giant Kelp
-minetest.register_node("australia:kelp_giant_brown", {
+minetest.register_node("hades_australia:kelp_giant_brown", {
 	description = "Giant Kelp ",
 	drawtype = "plantlike",
 	tiles = {"aus_kelp_giant_brown.png"},
@@ -1057,11 +1057,11 @@ minetest.register_node("australia:kelp_giant_brown", {
 	},
 	post_effect_color = {a=64, r=100, g=100, b=200},
 	groups = {snappy=3, seaplants=1, sea=1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	on_use = minetest.item_eat(1)
 })
 
-minetest.register_node("australia:kelp_giant_brown_middle", {
+minetest.register_node("hades_australia:kelp_giant_brown_middle", {
 	description = "Giant Kelp middle",
 	drawtype = "plantlike",
 	tiles = {"aus_kelp_giant_brown_middle.png"},
@@ -1078,12 +1078,12 @@ minetest.register_node("australia:kelp_giant_brown_middle", {
 	},
 	post_effect_color = {a=64, r=100, g=100, b=200},
 	groups = {snappy=3, seaplants=1, sea=1},
-	drop = "australia:kelp_giant_brown",
-	sounds = default.node_sound_leaves_defaults(),
+	drop = "hades_australia:kelp_giant_brown",
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 })
 
 	-- Dipsastraea speciosa: Brain Coral
-minetest.register_node("australia:brain_coral", {
+minetest.register_node("hades_australia:brain_coral", {
 	description = "Dipsastraea speciosa: Brain Coral",
 	drawtype = "nodebox",
 	paramtype = "light",
@@ -1102,7 +1102,7 @@ minetest.register_node("australia:brain_coral", {
 	wield_image = "aus_brain_coral.png",
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	node_box = {
 		type = "fixed",
 		fixed = {
@@ -1118,7 +1118,7 @@ minetest.register_node("australia:brain_coral", {
 })
 
 	-- Pocillopora damicornis: Cauliflower Coral (brown)
-minetest.register_node("australia:cauliflower_coral_brown", {
+minetest.register_node("hades_australia:cauliflower_coral_brown", {
 	description = "Pocillopora damicornis: Cauliflower Coral",
 	drawtype = "plantlike",
 	visual_scale = 0.75,
@@ -1134,7 +1134,7 @@ minetest.register_node("australia:cauliflower_coral_brown", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1142,7 +1142,7 @@ minetest.register_node("australia:cauliflower_coral_brown", {
 })
 
 	-- Pocillopora damicornis: Cauliflower Coral (green)
-minetest.register_node("australia:cauliflower_coral_green", {
+minetest.register_node("hades_australia:cauliflower_coral_green", {
 	description = "Pocillopora damicornis: Cauliflower Coral",
 	drawtype = "plantlike",
 	visual_scale = 0.75,
@@ -1158,7 +1158,7 @@ minetest.register_node("australia:cauliflower_coral_green", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1166,7 +1166,7 @@ minetest.register_node("australia:cauliflower_coral_green", {
 })
 
 	-- Pocillopora damicornis: Cauliflower Coral (pink)
-minetest.register_node("australia:cauliflower_coral_pink", {
+minetest.register_node("hades_australia:cauliflower_coral_pink", {
 	description = "Pocillopora damicornis: Cauliflower Coral",
 	drawtype = "plantlike",
 	visual_scale = 0.75,
@@ -1182,7 +1182,7 @@ minetest.register_node("australia:cauliflower_coral_pink", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1190,7 +1190,7 @@ minetest.register_node("australia:cauliflower_coral_pink", {
 })
 
 	-- Acropora millepora: Cluster Coral (green)
-minetest.register_node("australia:cluster_coral_green", {
+minetest.register_node("hades_australia:cluster_coral_green", {
 	description = "Acropora millepora: Cluster Coral",
 	drawtype = "plantlike",
 	tiles = {"aus_cluster_coral_green.png"},
@@ -1202,7 +1202,7 @@ minetest.register_node("australia:cluster_coral_green", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1210,7 +1210,7 @@ minetest.register_node("australia:cluster_coral_green", {
 })
 
 	-- Acropora millepora: Cluster Coral (orange)
-minetest.register_node("australia:cluster_coral_orange", {
+minetest.register_node("hades_australia:cluster_coral_orange", {
 	description = "Acropora millepora: Cluster Coral",
 	drawtype = "plantlike",
 	tiles = {"aus_cluster_coral_orange.png"},
@@ -1222,7 +1222,7 @@ minetest.register_node("australia:cluster_coral_orange", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1230,7 +1230,7 @@ minetest.register_node("australia:cluster_coral_orange", {
 })
 
 	-- Acropora millepora: Cluster Coral (purple)
-minetest.register_node("australia:cluster_coral_purple", {
+minetest.register_node("hades_australia:cluster_coral_purple", {
 	description = "Acropora millepora: Cluster Coral",
 	drawtype = "plantlike",
 	tiles = {"aus_cluster_coral_purple.png"},
@@ -1242,7 +1242,7 @@ minetest.register_node("australia:cluster_coral_purple", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1250,7 +1250,7 @@ minetest.register_node("australia:cluster_coral_purple", {
 })
 
 	-- Acropora cervicornis: Staghorn Coral (blue)
-minetest.register_node("australia:staghorn_coral_blue", {
+minetest.register_node("hades_australia:staghorn_coral_blue", {
 	description = "Acropora cervicornis: Staghorn Coral",
 	drawtype = "plantlike",
 	tiles = {"aus_staghorn_coral_blue.png"},
@@ -1262,7 +1262,7 @@ minetest.register_node("australia:staghorn_coral_blue", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1270,7 +1270,7 @@ minetest.register_node("australia:staghorn_coral_blue", {
 })
 
 	-- Acropora cervicornis: Staghorn Coral (pink)
-minetest.register_node("australia:staghorn_coral_pink", {
+minetest.register_node("hades_australia:staghorn_coral_pink", {
 	description = "Acropora cervicornis: Staghorn Coral",
 	drawtype = "plantlike",
 	waving = 0,
@@ -1286,7 +1286,7 @@ minetest.register_node("australia:staghorn_coral_pink", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1294,7 +1294,7 @@ minetest.register_node("australia:staghorn_coral_pink", {
 })
 
 	-- Acropora cervicornis: Staghorn Coral (purple)
-minetest.register_node("australia:staghorn_coral_purple", {
+minetest.register_node("hades_australia:staghorn_coral_purple", {
 	description = "Acropora cervicornis: Staghorn Coral",
 	drawtype = "plantlike",
 	waving = 0,
@@ -1310,7 +1310,7 @@ minetest.register_node("australia:staghorn_coral_purple", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1318,7 +1318,7 @@ minetest.register_node("australia:staghorn_coral_purple", {
 })
 
 	-- Acropora cervicornis: Staghorn Coral (yellow)
-minetest.register_node("australia:staghorn_coral_yellow", {
+minetest.register_node("hades_australia:staghorn_coral_yellow", {
 	description = "Acropora cervicornis: Staghorn Coral",
 	drawtype = "plantlike",
 	waving = 0,
@@ -1334,7 +1334,7 @@ minetest.register_node("australia:staghorn_coral_yellow", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {cracky = 3, coral = 1, stone = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_stone_defaults(),
+	sounds = hades_sounds.node_sound_stone_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1342,7 +1342,7 @@ minetest.register_node("australia:staghorn_coral_yellow", {
 })
 
 	-- Acabaria sp.: Sea Fan
-minetest.register_node("australia:seafan_coral", {
+minetest.register_node("hades_australia:seafan_coral", {
 	description = "Acabaria sp.: Sea Fan",
 	drawtype = "plantlike",
 	waving = 0,
@@ -1358,7 +1358,7 @@ minetest.register_node("australia:seafan_coral", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {snappy = 3, coral = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1366,7 +1366,7 @@ minetest.register_node("australia:seafan_coral", {
 })
 
 	-- Euphyllia ancora: Hammer coral
-minetest.register_node("australia:hammer_coral", {
+minetest.register_node("hades_australia:hammer_coral", {
 	description = "Euphyllia ancora: Hammer coral",
 	drawtype = "plantlike",
 	waving = 0,
@@ -1382,7 +1382,7 @@ minetest.register_node("australia:hammer_coral", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {snappy = 3, coral = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1390,7 +1390,7 @@ minetest.register_node("australia:hammer_coral", {
 })
 
 	-- Pipestela candelabra: Bob Marley Sponge
-minetest.register_node("australia:tube_sponge", {
+minetest.register_node("hades_australia:tube_sponge", {
 	description = "Pipestela candelabra: Bob Marley Sponge",
 	drawtype = "plantlike",
 	waving = 0,
@@ -1406,7 +1406,7 @@ minetest.register_node("australia:tube_sponge", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {snappy = 3, coral = 1, attached_node = 1, sea = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1414,7 +1414,7 @@ minetest.register_node("australia:tube_sponge", {
 })
 
 	-- Halodule uninervis: Narrowleaf Seagrass
-minetest.register_node("australia:sea_grass", {
+minetest.register_node("hades_australia:sea_grass", {
 	description = "Halodule uninervis: Narrowleaf Seagrass",
 	drawtype = "plantlike",
 	waving = 1,
@@ -1430,7 +1430,7 @@ minetest.register_node("australia:sea_grass", {
 	drowning = 1,
 	is_ground_content = true,
 	groups = {snappy = 3, attached_node = 1, sea = 1},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
 	selection_box = {
 		type = "fixed",
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.3125, 0.5},
@@ -1443,7 +1443,7 @@ minetest.register_node("australia:sea_grass", {
 -- Liquids
 --
 
-minetest.register_node("australia:muddy_river_water_source", {
+minetest.register_node("hades_australia:muddy_river_water_source", {
 	description = "Muddy river water source",
 	drawtype = "liquid",
 	tiles = {
@@ -1481,8 +1481,8 @@ minetest.register_node("australia:muddy_river_water_source", {
 	drop = "",
 	drowning = 1,
 	liquidtype = "source",
-	liquid_alternative_flowing = "australia:muddy_river_water_flowing",
-	liquid_alternative_source = "australia:muddy_river_water_source",
+	liquid_alternative_flowing = "hades_australia:muddy_river_water_flowing",
+	liquid_alternative_source = "hades_australia:muddy_river_water_source",
 	liquid_viscosity = 1,
 	liquid_renewable = true,
 	liquid_range = 3,
@@ -1490,7 +1490,7 @@ minetest.register_node("australia:muddy_river_water_source", {
 	groups = {water = 3, liquid = 3, puts_out_fire = 1},
 })
 
-minetest.register_node("australia:muddy_river_water_flowing", {
+minetest.register_node("hades_australia:muddy_river_water_flowing", {
 	description = "Flowing muddy river water",
 	drawtype = "flowingliquid",
 	tiles = {"aus_muddy_river_water_source.png"},
@@ -1529,8 +1529,8 @@ minetest.register_node("australia:muddy_river_water_flowing", {
 	drop = "",
 	drowning = 1,
 	liquidtype = "flowing",
-	liquid_alternative_flowing = "australia:muddy_river_water_flowing",
-	liquid_alternative_source = "australia:muddy_river_water_source",
+	liquid_alternative_flowing = "hades_australia:muddy_river_water_flowing",
+	liquid_alternative_source = "hades_australia:muddy_river_water_source",
 	liquid_viscosity = 1,
 	liquid_renewable = true,
 	liquid_range = 3,
@@ -1544,7 +1544,7 @@ minetest.register_node("australia:muddy_river_water_flowing", {
 -- Tools / "Advanced" crafting / Non-"natural"
 --
 
-minetest.register_node("australia:woodshipchest", {
+minetest.register_node("hades_australia:woodshipchest", {
 	description = "Wooden ship chest",
 	tiles = {"default_chest_top.png", "default_chest_top.png", "default_chest_side.png",
 		"default_chest_side.png", "default_chest_side.png", "default_chest_front.png"},
@@ -1553,7 +1553,7 @@ minetest.register_node("australia:woodshipchest", {
 	drop = 'default:chest',
 	legacy_facedir_simple = true,
 	is_ground_content = false,
-	sounds = default.node_sound_wood_defaults(),
+	sounds = hades_sounds.node_sound_wood_defaults(),
 	on_construct = function(pos)
 		local meta = minetest.get_meta(pos)
 		meta:set_string("formspec",
@@ -1573,15 +1573,15 @@ minetest.register_node("australia:woodshipchest", {
 	elseif math.random(1,100) >= 46 or math.random(1,100) <= 50 then
 		contents = {main = {[1] = "default:diamond 24"}}
 	elseif math.random(1,100) >= 51 or math.random(1,100) <= 60 then
-		contents = {main = {[1] = "australia:huon_pine_tree 18"}}
+		contents = {main = {[1] = "hades_australia:huon_pine_tree 18"}}
 	elseif math.random(1,100) >= 61 or math.random(1,100) <= 70 then
-		contents = {main = {[1] = "australia:jarrah_tree 18"}}
+		contents = {main = {[1] = "hades_australia:jarrah_tree 18"}}
 	elseif math.random(1,100) >= 71 or math.random(1,100) <= 80 then
-		contents = {main = {[1] = "australia:marri_tree 18"}}
+		contents = {main = {[1] = "hades_australia:marri_tree 18"}}
 	elseif math.random(1,100) >= 81 or math.random(1,100) <= 90 then
-		contents = {main = {[1] = "australia:merbau_tree 18"}}
+		contents = {main = {[1] = "hades_australia:merbau_tree 18"}}
 	else
-		contents = {main = {[1] = "australia:river_red_gum_tree 18"}}
+		contents = {main = {[1] = "hades_australia:river_red_gum_tree 18"}}
 	end
 meta:from_table({
 	inventory = contents,
@@ -1610,7 +1610,7 @@ meta:from_table({
 	end,
 })
 
-minetest.register_node("australia:submarinechest", {
+minetest.register_node("hades_australia:submarinechest", {
 	description = "U-boot chest",
 	tiles = {"default_chest_top.png", "default_chest_top.png", "default_chest_side.png",
 		"default_chest_side.png", "default_chest_side.png", "default_chest_front.png"},
@@ -1619,7 +1619,7 @@ minetest.register_node("australia:submarinechest", {
 	drop = 'default:chest',
 	legacy_facedir_simple = true,
 	is_ground_content = false,
-	sounds = default.node_sound_wood_defaults(),
+	sounds = hades_sounds.node_sound_wood_defaults(),
 	on_construct = function(pos)
 		local meta = minetest.get_meta(pos)
 		meta:set_string("formspec",
@@ -1668,7 +1668,7 @@ meta:from_table({
 -- Misc
 --
 
-minetest.register_node("australia:moss", {
+minetest.register_node("hades_australia:moss", {
 	description = "Moss",
 	drawtype = "nodebox",
 	tiles = {"aus_moss.png"},
@@ -1688,12 +1688,12 @@ minetest.register_node("australia:moss", {
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}
 	},
 	groups = {snappy = 3,flammable = 3},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
     -- @@@ Josselin2
     use_texture_alpha = "clip",
 })
 
-minetest.register_node("australia:moss_with_fungus", {
+minetest.register_node("hades_australia:moss_with_fungus", {
 	description = "Moss with Fungus",
 	drawtype = "nodebox",
 	tiles = {"aus_moss_fungus.png"},
@@ -1713,7 +1713,7 @@ minetest.register_node("australia:moss_with_fungus", {
 		fixed = {-0.5, -0.5, -0.5, 0.5, -0.4375, 0.5}
 	},
 	groups = {snappy = 3,flammable = 3},
-	sounds = default.node_sound_leaves_defaults(),
+	sounds = hades_sounds.node_sound_leaves_defaults(),
     -- @@@ Josselin2
     use_texture_alpha = "clip",
 })
