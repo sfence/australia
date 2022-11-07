@@ -39,11 +39,21 @@ bucket.register_liquid(
 for i in ipairs(aus.treelist) do
 	local treename			= aus.treelist[i][1]
 	local treedesc			= aus.treelist[i][2]
+	local nodename = "hades_australia:"..treename.."_wood"
 
-	if minetest.get_modpath("stairs") then
-		stairs.register_stair_and_slab(
+	if minetest.get_modpath("hades_moreblocks") then
+		local ndef = table.copy(minetest.registered_nodes[nodename])
+		ndef.sunlight_propagates = true
+		stairsplus:register_all(
+				"hades_australia",
+				"aus_"..treename.."_wood",
+				nodename,
+				ndef
+			)
+	elseif minetest.get_modpath("hades_stairs") then
+		hades_stairs.register_stair_and_slab(
 			"aus_"..treename.."_wood",
-			"hades_australia:"..treename.."_wood",
+			nodename,
 			{snappy=2,choppy=2,oddly_breakable_by_hand=2,flammable=3},
 			{"aus_"..treename.."_wood.png" },
 			treedesc.." Wood Stair",

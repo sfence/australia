@@ -57,4 +57,7 @@ dofile(aus.path .. "/trees.lua")
 dofile(aus.path .. "/saplings.lua")
 --dofile(aus.path .. "/voxel.lua")
 
+dofile(aus.path .. "/hades.lua")
+dofile(aus.path .. "/hades_biome.lua")
+
 minetest.log("MOD: Australia loaded")
